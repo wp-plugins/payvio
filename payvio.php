@@ -2,12 +2,12 @@
 
 /**
  * @package Payvio
- * @version 0.0.1
+ * @version 0.0.2
  */
 /* Plugin Name: Payvio
  * Plugin URI: http://www.payvio.com
  * Description: Alacarte payments through Payvio.
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author: Payvio
  * License: GPL2
  */
