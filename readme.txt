@@ -23,4 +23,4 @@ After you have installed the plugin through your wordpress admin portal, simply 
 == Changelog ==
 
 = 0.0.2 =
-* Changes to plugin descriptions 
+* Changes to plugin descriptions  
