@@ -20,12 +20,12 @@ $api_base = "https://localhost:44303";
 */
 
 define('PAYVIO_ACCOUNTS_URL', $accounts_base);
-define('PAYVIO_OAUTH_AUTH_URL', $accounts_base + '/oauth2/auth');
-define('PAYVIO_OAUTH_TOKEN_URL', $accounts_base + '/oauth2/token');
-define('PAYVIO_REDIRECT_URL', $wp_base + '/oauth2callback/payvio');
-define('PAYVIO_API_USERINFO_URL', $api_base + '/oauth2/v1/userinfo?access_token=[0]');
-define('PAYVIO_API_CHARGE_URL', $api_base + '/oauth2/v1/accountcharge?access_token=[0]');
-define('PAYVIO_API_SUBSCRIBE_URL', $api_base + '/oauth2/v1/subscription?access_token=[0]');
+define('PAYVIO_OAUTH_AUTH_URL', $accounts_base . '/oauth2/auth');
+define('PAYVIO_OAUTH_TOKEN_URL', $accounts_base . '/oauth2/token');
+define('PAYVIO_REDIRECT_URL', $wp_base . '/oauth2callback/payvio');
+define('PAYVIO_API_USERINFO_URL', $api_base . '/oauth2/v1/userinfo?access_token=[0]');
+define('PAYVIO_API_CHARGE_URL', $api_base . '/oauth2/v1/accountcharge?access_token=[0]');
+define('PAYVIO_API_SUBSCRIBE_URL', $api_base . '/oauth2/v1/subscription?access_token=[0]');
 define('PAYVIO_AUTHZ_CHARGE_PERMISSION', 'user.charge');
 define('PAYVIO_AUTHZ_USERINFO_PERMISSION', 'user.info');
 define('PAYVIO_AUTHZ_SUBSCRIBE_PERMISSION', 'user.subscribe');
