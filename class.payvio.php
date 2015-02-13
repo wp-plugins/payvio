@@ -141,7 +141,7 @@ class Payvio {
                 "encryptedPrice" => 'check obsolete',   
                 "description" => $post->post_title,
                 "applicationId" => 'check obsolete',
-                "payvioOAuthAuthUrl" => PAYVIO_OAUTH_AUTH_URL
+                "payvioOAuthAuthUrl" => "peanuts"
             );
             
             PayvioHelpers::view( 'paywall', $postDetails);

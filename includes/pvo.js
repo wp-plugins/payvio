@@ -34,7 +34,7 @@
         var pvApplicationId = pvo.getDataItem(item, "pvApplicationId");
         var pvRenderDot = pvo.getDataItem(item, "pvRenderDot");
         var pvContentOwnership = pvo.getDataItem(item, "pvContentOwnership");
-        var pvPayvioOAuthAuthUrl = pvo.getDataItem(item, "pvPayviooauthauthurl");
+        var pvPayvioOAuthAuthUrl = pvo.getDataItem(item, "payvioOAuthAuthUrl");
         var currentHref = jQuery(item)[0].href;
         // todo : pull payvioClientId and payvioOAuthAuthUrl from config???
         // put another data elem on the ..
