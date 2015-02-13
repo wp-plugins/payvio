@@ -24,3 +24,6 @@ After you have installed the plugin through your wordpress admin portal, simply 
 
 = 0.0.2 =
 * Changes to plugin descriptions  
+
+= 0.0.3 =
+* Changes to auth url internal setting mechanism
