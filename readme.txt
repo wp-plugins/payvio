@@ -30,3 +30,4 @@ After you have installed the plugin through your wordpress admin portal, simply 
 
 = 0.0.4 =
 * Fix bug with setting of OAuthAuthUrl
+

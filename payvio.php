@@ -18,7 +18,7 @@ if ( !function_exists( 'add_action' ) ) {
 	exit;
 }
 
-define("PAYVIO_PLUGIN_VERSION", "0.0.1");
+define("PAYVIO_PLUGIN_VERSION", "0.0.4");
 define("PAYVIO_PLUGIN_DIR", dirname(__FILE__));
 define("PAYVIO_PLUGIN_URL", plugin_dir_url( __FILE__ ));
 define('PAYVIO_PLUGIN_IMAGES_DIR', plugin_dir_url(__FILE__) . 'includes/images');
